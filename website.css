@@ -1,0 +1,44 @@
+html {
+    background-color: #17161f;
+    color: white;
+    margin: 0px;
+    padding: 0;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* TOP MENU BAR */
+#menuBar {
+    margin:0px;
+    padding:0px;
+    position:fixed;
+}
+#menuBar ul { /* Entire Container */
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3ba776;
+}  
+#menuBar li { /* Each Individual Segment */
+    float:left;
+    /*border: solid 2px;
+    border-color: #222222;*/
+}
+#menuBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}  
+#menuBar li a:hover {
+    background-color: #111111;
+}
+
+
+.mainContent {
+    margin:2%;
+}
