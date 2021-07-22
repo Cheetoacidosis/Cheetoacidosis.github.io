@@ -1,6 +1,7 @@
 html {
     background-color: #17161f;
     color: white;
+    font-size: 1rem;
     margin: 0px;
     padding: 0;
 }
@@ -13,7 +14,7 @@ h1, h2 {
     color:#17161f;
     text-align: center;
     padding: 5px;
-    margin: 0px !important;
+    margin: 0px 60px !important;
     position:sticky;
     top: 7px;
     z-index: 10;
@@ -30,7 +31,7 @@ h1, h2 {
     z-index: 5;
 }
 #menuBar ul { /* Entire Container */
-    background-color: #3ba776;
+    background-color: #2ccc84;
     list-style-type: none;
     margin: 0px;
     padding: 0;
@@ -69,7 +70,7 @@ h1, h2 {
 
 
 
-/* Content for Whole Page */
+/* Whole Page */
 .mainContent {
     margin:0%;
     margin-top: 40px;
@@ -84,24 +85,56 @@ h1, h2 {
     max-height: 100%;
 }
 .mainContent p {
-    margin: 2%;
-    padding: 0px;
-}
-.mainContent img {
-    margin: 2%;
+    font-size:large;
+    margin: 4%;
     padding: 0px;
 }
 
 
-figure {
-    text-align: right;
+
+/* Images on right */
+div.rightImage {
     color: #8b8b8b;
     font-size: 80%;
+    border: solid 2px;
+    border-color: rgb(49, 49, 49);
+    width:40%;
+    margin: 15px 4% 15px 15px;
+    padding: 0px;
+    text-align: right;
     float:right;
 }
-figure img {
+.rightImage img {
+    width:100%;
+    margin: 0px;
+    padding:0px;
+}
+.rightImage p {
+    text-align: center;
+    margin:5px;
+    padding:0px;
+}
+
+/* Images on Left */
+div.leftImage {
+    color: #8b8b8b;
+    font-size: 80%;
     border: solid 2px;
-    border-color: black;
+    border-color: rgb(49, 49, 49);
+    width:40%;
+    margin: 15px 15px 15px 4%;
+    padding: 0px;
+    float:left;
+}
+.leftImage img {
+    width:100%;
+    margin: 0px;
+    padding:0px;
+}
+.leftImage p {
+    text-align: center;
+    margin:5px;
+    padding:0px;
 }
 
 
